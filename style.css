@@ -33,6 +33,7 @@ h1, h2 {
   border: none;
   border-radius: 5px;
   margin: 0px 14px 14px 0px;
+  font-size: 15px;
   cursor: pointer;
 }
 .btn_class:hover{
