@@ -10,10 +10,32 @@ h1, h2 {
   padding: 14px;
   font-family: Lato;
   font-size: 15px;
+  display: flex;
+  flex-direction: column;
 }
 .title_div{
   float: left;
   width: 100%;
   font-size: 30px;
   font-weight: bold;
+}
+.btn_div{
+  float: left;
+  width: 100%;
+  height: auto;
+  padding: 20px 0px;
+  overflow-y: auto;
+}
+.btn_class{
+  float: left;
+  padding: 12px;
+  background: #ffe600;
+  border: none;
+  border-radius: 5px;
+  margin: 0px 14px 14px 0px;
+  cursor: pointer;
+}
+.btn_class:hover{
+  background: #444;
+  color: #fff;
 }
