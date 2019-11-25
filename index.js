@@ -3,4 +3,4 @@ import './style.css';
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>JavaScript Algorithms And Data Structures</h1>`;
+appDiv.innerHTML = `JavaScript Algorithms And Data Structures`;
