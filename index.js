@@ -8,7 +8,11 @@ const appDiv = document.getElementById('app');
 appDiv.innerHTML = `JavaScript Algorithms And Data Structures`;
 
 let stringReverseUsingStack = () => {
-  alert(reverseString("ABCDEFGHIJK"));
+  let result = reverseString("ABCDEFGHIJK");
+  let title  = "String Reverse Using Stack Data Structure";
+  let content = "String to be reversed: <h4>ABCDEFGHIJK </h4><br/><br/>"
+  let resultContent = "Reversed String: <h3>"+result+"</h3>";
+  showResultView(title,content,resultContent);
 }
 
 let showResultView = (title,content,result) => {
