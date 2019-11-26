@@ -7,6 +7,14 @@ import { reverseString } from './String_Reverse_Using_Stack/index.js';
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `JavaScript Algorithms And Data Structures`;
 
+const resultDiv = document.getElementById('result');
+const overlayDiv = document.getElementById('resultOverlay');
+const closeIconDiv = document.getElementById('closeIcon');
+resultDiv.style.display = "none";
+overlayDiv.style.display = "none";
+closeIconDiv.style.display = "none";
+
+
 let stringReverseUsingStack = () => {
   let result = reverseString("ABCDEFGHIJK");
   let title  = "String Reverse Using Stack Data Structure";
@@ -16,5 +24,14 @@ let stringReverseUsingStack = () => {
 }
 
 let showResultView = (title,content,result) => {
+  resultDiv.style.display = "block";
+  overlayDiv.style.display = "block";
+  closeIconDiv.style.display = "block";
+  resultDiv.innerHTML = '<div class="result_title">'+title+'</div><div class="result_content">'+content+'</div><div class="result_answer">'+result+'</div>';
+}
 
+let closeResult = () => {
+  resultDiv.style.display = "none";
+  overlayDiv.style.display = "none";
+  closeIconDiv.style.display = "none";
 }
