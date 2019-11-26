@@ -7,6 +7,10 @@ import { reverseString } from './String_Reverse_Using_Stack/index.js';
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `JavaScript Algorithms And Data Structures`;
 
-window.stringReverseUsingStack = () => {
+let stringReverseUsingStack = () => {
   alert(reverseString("ABCDEFGHIJK"));
+}
+
+let showResultView = (title,content,result) => {
+
 }
