@@ -14,14 +14,14 @@ resultDiv.style.display = "none";
 overlayDiv.style.display = "none";
 closeIconDiv.style.display = "none";
 
-
-let stringReverseUsingStack = () => {
+window.stringReverseUsingStack = () => {
   let result = reverseString("ABCDEFGHIJK");
   let title  = "String Reverse Using Stack Data Structure";
   let content = "String to be reversed: <h4>ABCDEFGHIJK </h4><br/><br/>"
   let resultContent = "Reversed String: <h3>"+result+"</h3>";
   showResultView(title,content,resultContent);
 }
+
 
 let showResultView = (title,content,result) => {
   resultDiv.style.display = "block";
@@ -30,7 +30,7 @@ let showResultView = (title,content,result) => {
   resultDiv.innerHTML = '<div class="result_title">'+title+'</div><div class="result_content">'+content+'</div><div class="result_answer">'+result+'</div>';
 }
 
-let closeResult = () => {
+window.closeResult = () => {
   resultDiv.style.display = "none";
   overlayDiv.style.display = "none";
   closeIconDiv.style.display = "none";
