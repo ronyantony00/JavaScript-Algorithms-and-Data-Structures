@@ -35,10 +35,3 @@ const reverseString = (reversedWord) => {
 }
 
 export { reverseString };
-
-
-  // results = results + "<h3>"+reversedString+"</h3>";
-  // resultDiv.innerHTML = results;
-
-// results = "String To be reversed: <h4>ABCDEFGHIJK</h4>";
-// reverseString("ABCDEFGHIJK");
