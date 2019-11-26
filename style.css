@@ -70,3 +70,22 @@ h1, h2 {
   z-index: 30;
   cursor: pointer;
 }
+.result_title{
+  float: left;
+  width: calc(100% - 28px);
+  padding: 50px 14px 14px 14px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: bold;
+}
+.result_content,.result_answer{
+  float: left;
+  width: calc(100% - 28px);
+  padding: 20px 14px 14px 14px;
+  font-family: Lato;
+  font-size: 15px;
+}
+h3,h4{
+  padding: 14px 0px;
+  margin: 0px
+}

@@ -17,7 +17,7 @@ closeIconDiv.style.display = "none";
 window.stringReverseUsingStack = () => {
   let result = reverseString("ABCDEFGHIJK");
   let title  = "String Reverse Using Stack Data Structure";
-  let content = "String to be reversed: <h4>ABCDEFGHIJK </h4><br/><br/>"
+  let content = "String to be reversed: <h4>ABCDEFGHIJK </h4><br/>"
   let resultContent = "Reversed String: <h3>"+result+"</h3>";
   showResultView(title,content,resultContent);
 }
