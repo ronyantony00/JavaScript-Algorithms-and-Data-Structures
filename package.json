@@ -2,5 +2,7 @@
   "name": "js-8ngnsx",
   "version": "0.0.0",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2"
+  }
 }
