@@ -22,7 +22,7 @@ class Stack{
   
 }
 
-reverseString = (reversedWord) => {
+const reverseString = (reversedWord) => {
   let stack = new Stack();
   let reversedString = "";
   for(let i=0;i<reversedWord.length; i++){
@@ -32,11 +32,13 @@ reverseString = (reversedWord) => {
     reversedString = reversedString + stack.popFromStack();
   }
   return reversedString;
-  // results = results + "<h3>"+reversedString+"</h3>";
-  // resultDiv.innerHTML = results;
 }
 
 export { reverseString };
+
+
+  // results = results + "<h3>"+reversedString+"</h3>";
+  // resultDiv.innerHTML = results;
 
 // results = "String To be reversed: <h4>ABCDEFGHIJK</h4>";
 // reverseString("ABCDEFGHIJK");
