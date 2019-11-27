@@ -1,5 +1,5 @@
 
-findElementIndex = (arr, x, start, end)=> {
+let findElementIndex = (arr, x, start, end)=> {
   
   if(start>end){
     return "Element not found";
