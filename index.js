@@ -25,7 +25,7 @@ window.stringReverseUsingStack = () => {
 
 window.binarySearch = () => {
   let arr = [1, 3, 5, 7, 8, 9]; 
-  let element = 5;
+  let element = 4;
   let result = searchElementIndex(arr, element);
   let title  = "Binary Search"
   let content = "Array to be searched<br/>"+ JSON.stringify(arr);
