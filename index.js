@@ -2,6 +2,7 @@
 import './style.css';
 //import modules
 import { reverseString } from './String_Reverse_Using_Stack/index.js';
+import { searchElementIndex } from './Binary_Search/index.js';
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');
@@ -19,6 +20,16 @@ window.stringReverseUsingStack = () => {
   let title  = "String Reverse Using Stack Data Structure";
   let content = "String to be reversed: <h4>ABCDEFGHIJK </h4><br/>"
   let resultContent = "Reversed String: <h3>"+result+"</h3>";
+  showResultView(title,content,resultContent);
+}
+
+window.binarySearch = () => {
+  let arr = [1, 3, 5, 7, 8, 9]; 
+  let element = 5;
+  let result = searchElementIndex(arr, element);
+  let title  = "Binary Search"
+  let content = "Array to be searched<br/>"+ JSON.stringify(arr);
+  let resultContent = "Index for the element "+ element +":  <h3>"+result+"</h3>";
   showResultView(title,content,resultContent);
 }
 

@@ -1,7 +1,7 @@
 
 let findElementIndex = (arr, x, start, end)=> {
   let mid = floor((start + mid) / 2);
-  if(end<mid)
+  if(estart>end)
     return "Element not found";
   if(arr[mid]==x)
     return mid;
@@ -13,7 +13,7 @@ let findElementIndex = (arr, x, start, end)=> {
 };
 
 const searchElementIndex = (arr, element) => {
-
+  return findElementIndex(arr, element, 0, arr.length-1);
 }
 
 export { searchIndex };
