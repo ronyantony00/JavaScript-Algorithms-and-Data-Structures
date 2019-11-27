@@ -36,10 +36,10 @@ let reverseString = (reversedWord) => {
 
 const stringReverseUsingStack = () => {
   let result = reverseString("ABCDEFGHIJK");
-  let title  = "String Reverse Using Stack Data Structure";
-  let content = "String to be reversed: <h4>ABCDEFGHIJK </h4><br/>"
-  let resultContent = "Reversed String: <h3>"+result+"</h3>";
-  let resultHTML = '<div class="result_title">'+title+'</div><div class="result_content">'+content+'</div><div class="result_answer">'+resultContent+'</div>';
+  let resultHTML = 
+  '<div class="result_title">String Reverse Using Stack Data Structure</div>'+
+  '<div class="result_content">String to be reversed: <h4>ABCDEFGHIJK </h4><br/></div>'+
+  '<div class="result_answer"> Reversed String: <h3>'+result+'</h3></div>';
   return resultHTML;
 }
 
