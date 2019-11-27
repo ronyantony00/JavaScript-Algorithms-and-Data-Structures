@@ -60,11 +60,12 @@ h1, h2 {
   background-color: #fff;
   border-radius: 5px;
   z-index: 20;
+  overflow: auto;
 }
 .close_icon_div{
   position: fixed;
   top: 6%;
-  right: 6%;
+  right: 8%;
   width: 26px;
   height: 32px;
   z-index: 30;
